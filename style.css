@@ -493,3 +493,22 @@
       margin-bottom: 12px;
     }
   }
+ 
+
+  @media (max-width: 1660px) {
+    .card-2 {
+      width: 330px;
+      height: 330px;
+    }
+  
+    .card2-contents h1 {
+      font-size: 42px;
+    }
+  
+    .card2-contents p,
+    .card2-contents span {
+      font-size: 18px;
+    }
+  }
+  
+  
