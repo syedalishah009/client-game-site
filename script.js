@@ -36,6 +36,8 @@ document.getElementById('bulbButton').addEventListener('click', function() {
         hero.style.display = 'block';
         hero2.style.display = 'none';
     }
+
+    event.stopPropagation();
 });
 
 document.getElementById('bulbButton2').addEventListener('click', function() {
@@ -50,5 +52,7 @@ document.getElementById('bulbButton2').addEventListener('click', function() {
         hero.style.display = 'block';
         hero2.style.display = 'none';
     }
+
+    event.stopPropagation();
 });
 
